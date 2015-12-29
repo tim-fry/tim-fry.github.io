@@ -1,0 +1,367 @@
+/*
+Theme Name: Plain T
+Description: Based on Plain Jane by Kyle Schembri.
+Version: 1.1T
+Author: Kyle Schembri, modified by Tim Fry
+*/
+
+body {
+	background: #ffffff;
+	margin: 40px 0px 0px 0px;
+	padding: 0px 80px 40px 80px;
+	font: 11px 'Lucida Sans', 'Lucida Sans Unicode', 'Lucida Grande', LucidaGrande, Geneva, Arial, sans-serif;
+	font-weight: 100;
+	color: #444;
+	text-align: left;
+	line-height: 1.7;
+	text-align: center;
+}
+
+
+
+#top-gradient {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	background: url('./images/gradient.png') repeat-x transparent;
+}
+
+#wrap {
+	width: 550px;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+}
+
+a {
+	color: #888;
+	text-decoration: none;
+}
+a:hover {
+	color: #3391BB;
+	text-decoration: none;
+}
+a img {
+	border: none;
+	text-decoration: none;
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 10px;
+}
+
+#introduction {
+	margin: 0px 0px 20px 0px;
+	padding: 0px 35px 20px 0px;
+	text-align: right;
+	background: url('title_original.png') top center no-repeat transparent;
+}
+
+blockquote {
+	margin: 10px;
+	padding: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size: 11px;
+	color: #777;
+	border-left: 1px solid #EEE;
+}
+code {
+	font-size: 11px;
+	color: #777;
+	font-style: italic;
+}
+
+hr {
+	height: 1px;
+	background: #dfd0d2;
+}
+
+/*----- TEXT HEADERS -------*/
+/*-----------------------------------------------------*/
+
+h1 {
+	font-size: 11px;
+	color: #111111;
+	font-family: 'Lucida Sans', 'Lucida Sans Unicode', 'Lucida Grande', LucidaGrande, Geneva, Arial, sans-serif;
+	font-weight: normal;
+	visibility: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 135px 0px 0px 20px;
+}
+
+h1.explanation {
+	letter-spacing: 2px;
+	text-transform: lowercase;
+	margin-bottom: 55px; /* Should be 25px */
+}
+
+h1 a {
+	text-decoration: none;
+	color: #888;
+}
+
+h2 {
+	font-size: 11px;
+	font-weight: bold;
+	margin: 17px 0px 7px 0px;
+	padding: 0px 0px 0px 0px;
+	color: #333;
+	text-transform: capitalize;
+}
+
+h2 a {
+	color: #333;
+}
+
+h3 {
+	font-size: 11px;
+	font-weight: bold;
+	margin: 17px 0px 0px 0px;
+	padding: 0px;
+	color: #333;
+	margin-bottom: 7px;
+	text-transform: capitalize;
+}
+
+
+/*----- MAIN CONTAINERS -------*/
+
+#header {
+	margin: 0px 0px 25px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+#menu {
+	float: left;
+	width: 150px;
+	margin: 0px 0px 0px 0px;
+	padding: 32px 0px 32px 0px;
+	border-top: 1px solid #d4d0d2;
+	border-bottom: 1px solid #d4d0d2;
+}
+
+#menu ul {
+	margin: 0px 0px 0px 32px;
+	padding: 0px 0px 0px 0px;	
+	list-style-image: none;
+	list-style-type: none;
+}
+
+#menu ul.onmenu {
+	margin: 32px 0px 0px 32px;
+}
+
+#menu h2 {
+	margin: 0px 0px 7px 32px;
+	padding: 0px 0px 0px 0px;
+}
+
+#menu ul li {
+	margin: 0px 1px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 11px;
+}
+
+#menu ul li a {
+	color: #444;
+}
+
+#menu ul li a:hover {
+	color: #3391BB;
+	text-decoration: none;
+}
+
+#header ul li a {
+	margin-right: 1px;
+}
+
+#search {
+	position: absolute;
+	top: 80px;
+	right: 80px;
+}
+
+#searchterm {
+	margin: 0px 0px 40px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#blog {
+	margin: 0px 0px 0px 0px;
+	padding: 15px 35px 0px 35px;
+	text-align: left;
+	border-top: 1px solid #d4d0d2;
+}
+
+#page {
+	margin: 0px 0px 0px 200px;
+	padding: 15px 35px 40px 35px;
+	text-align: left;
+	border-top: 1px solid #d4d0d2;
+}
+
+#footer {
+	margin: 20px 0px 0px 0px;
+	padding: 20px 20px 0px 20px;
+	text-align: center;
+	font-size: 11px;
+	border-top: 1px solid #d4d0d2;
+}
+
+.post {
+	width: 480px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 10px 0px;
+}
+
+.earworthy {
+	background: url('./images/ipod.png') transparent right top no-repeat;
+}
+
+#archivelink {
+	margin: 10px 35px 10px 35px;
+	padding: 0px 0px 0px 0px;
+}
+
+#archivelink p {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#blog p, #page p {
+	text-align: justify;
+	line-height: 1.8em;
+}
+
+.post .eimage {
+	margin: 5px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.post .eimage img {
+	border: 1px solid #d5d6d1;
+	background: #d5d6d1;
+	margin: 0px 0px 0px 0px;
+	padding: 5px 5px 5px 5px;
+}
+
+.leftimg {
+	margin: 0px 20px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	float: left;
+}
+
+.leftimg img {
+	margin: 5px 10px 10px 10px;
+	border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+box-shadow:0px 2px 15px #333;
+-webkit-box-shadow:0px 2px 15px #333;
+-moz-box-shadow:0px 2px 15px #333;
+-webkit-backface-visibility: hidden;
+
+	-webkit-transform: rotate(-3deg);
+}
+
+
+/*----- ARCHIVES -------*/
+
+.archives {
+	margin: 30px 0px 40px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.archives ul {
+	margin: 20px 0px 40px 35px;
+	padding: 0px 0px 0px 0px;	
+	list-style-image: none;
+	list-style-type: none;
+}
+
+.archives ul li {
+	margin: 0px 0px 0px 0px;
+	padding: 5px 0px 5px 20px;
+	border-bottom: 1px solid #d4d0d2;
+}
+
+.archives ul li a {
+	margin-left: 20px;
+}
+
+/*----- ARCHIVES -------*/
+
+.photos {
+	margin: 0px 0px 0px 0px;
+	padding: 15px 0px 0px 0px;
+}
+
+.photos ul {
+	margin: 20px 0px 40px 35px;
+	padding: 0px;
+	list-style: none;
+	list-style-type: none;
+
+}
+
+.photos ul li {
+	margin: 5px 0px 0px 0px;
+	padding: 5px 0px 0px 0px;
+	list-style: none;
+	border-bottom: #d4d0d2 1px solid;
+	height: 4em;
+}
+
+.photos ul li img {
+	float: left;
+	height: 30px;
+	width: 30px;
+	margin: 4px 10px 5px 5px;
+	padding: 0px;
+	border: #bbb9ba 1px solid;
+}
+
+.imagethumb a {
+	display: block;
+	border: none;
+	line-height: 0px;
+	margin: 15px 30px 15px 30px;
+	padding: 0px 0px 0px 0px;
+}
+
+.imagethumb a img {
+	border: 1px solid #bbb9ba;
+	margin: 0px 0px 0px 0px;
+	padding: 5px 5px 5px 5px;
+}
+
+.image {
+	float: left;
+	width: 240px;
+	height: 194px;
+}
+
+#image a:hover {
+	background: #ffffff;
+}
+
+/*----- THE DATE STAMP -------*/
+
+
+.date .day {
+	font-size: 20px;
+	font-weight: 100;
+	color: #888;
+	padding-bottom: 4px;
+}
+
+
+/*----- MISC -------*/
+
+.end {
+	clear: both;
+}
